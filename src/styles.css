@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: rgb(8, 38, 53);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type='text'] {
+  outline: none;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 350px;
+}
+
+button {
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: 2px solid blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.app {
+  padding: 0px 20px;
+}
+
+h1 {
+  color: white;
+  padding: 5px 10px;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 20px;
+  color: white;
+}
+
+.list {
+  background: rgb(245, 235, 98);
+  border-radius: 10px;
+  height: 310px;
+  overflow: auto;
+  color: brown;
+}
+
+ol li {
+  margin: 20px 0px;
+  cursor: pointer;
+}
+
+.banner {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
